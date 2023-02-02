@@ -38,7 +38,8 @@ console.log('Last animal is', animalArray[3]);
 
 // 3.c. (STRETCH) TODO: Log the last animal by using the array length, 
 //      instead of the exact index number of the last item
-
+const lastItem = animalArray[animalArray.length -1];
+console.log('The last animal without using index number is', lastItem);
 
 
 // 4. Adding & Removing Array Items
@@ -88,6 +89,8 @@ console.log('the favore food is now' , favoriteFoods);
 // 4.e (STRETCH) TODO: Replace the second food in your array
 //      with another one of your favorite foods.
 //      Then log the updated array.
+favoriteFoods[1] = 'Fruit Loops';
+console.log('My new favorite foods are:', favoriteFoods);
 
 // 4.f (STRETCH) TODO: Sort your favoriteFoods array
 //     in reverse alphabetical order. Log the array.
@@ -96,8 +99,11 @@ console.log('the favore food is now' , favoriteFoods);
 //     putting the word "and" between each item.
 //     eg "tacos and pizza and pasta". Log the string.
 
+
 // 4.h (STRETCH) TODO: Make a new array that combines 
 //     the favorite foods array with the animals array.
 //     Then log the new array.
 //     It should look something like:
 //     ['pizza', 'pasta', 'fish', 'cat', 'bird', 'dog']
+let bigArray = favoriteFoods.concat(animalArray);
+console.log(bigArray);
