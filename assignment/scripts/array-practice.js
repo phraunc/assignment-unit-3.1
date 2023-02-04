@@ -113,3 +113,5 @@ console.log('Here are the favorite foods in reverse', favoriteFoods);
 //     ['pizza', 'pasta', 'fish', 'cat', 'bird', 'dog']
 let bigArray = favoriteFoods.concat(animalArray);
 console.log(bigArray);
+
+// I just wanted to add this to do another save, commit and push to ensure my assignment is in.
